@@ -1,0 +1,1 @@
+I used these exercise files in a linkedin course in order to learn React for my own personal, academic, business and professional development.
