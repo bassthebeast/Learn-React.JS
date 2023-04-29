@@ -17,6 +17,7 @@
     <div id="root"></div>
 
     <script type="text/babel">
+
       function Header(props) {
         return (
           <header>
@@ -24,9 +25,15 @@
           </header>
         );
       }
+
       function Main(props) {
         return (
           <section>
+            <img 
+              height={225}
+              src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+              alt="A plate of vegan food"
+              />
             <ul>
               {props.dishes.map((dish) => (
                 <li key={dish.id}>
